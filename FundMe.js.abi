@@ -1,0 +1,36 @@
+{
+    "lang": "javascript",
+    "version": "1.0.0",
+    "abi": [
+        {
+            "name": "fundme",
+            "args": [
+                "number"
+            ],
+            "amountLimit": [{
+                "token": "iost",
+                "val": "10"
+            }]
+        },
+        {
+            "name": "getTotalFunds",
+            "args": [],
+            "amountLimit": []
+        },
+        {
+            "name": "withdrawFunds",
+            "args": [],
+            "amountLimit": [{
+                "token": "iost",
+                "val": "10"
+            }]
+        },
+        {
+            "name": "getMapping",
+            "args": [
+                "number"
+            ],
+            "amountLimit": []
+        }
+    ]
+}
